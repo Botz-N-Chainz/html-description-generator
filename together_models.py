@@ -7,15 +7,6 @@ from together import Together
 client = Together()
 
 def generate_description(content):
-    # Define the system prompt for summarization
-    # system_prompt = """
-    # You are summarizing the content of a web page. Focus on key services, features, or information while keeping the description clear, informative, and brief.
-    
-    # - Summarize the main points like services or important details.
-    # - Avoid irrelevant content.
-    # - Keep the description under 150 words.
-    # - Ensure clarity and neutrality.
-    # """
     system_prompt = """
     Extract the following from the web page:
     1. An appropriate title for the page based on its content.

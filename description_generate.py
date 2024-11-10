@@ -12,7 +12,22 @@ headers = {
 def generate_description(content):
     # Shortened system prompt for the model
     system_prompt = """
-    - Remove all html tags of this page.
+    Extract the following from the web page:
+    1. An appropriate title for the page based on its content.
+    2. A list of actions or services a user can perform on the page, including:
+    - Any forms the user can fill out and their purpose.
+    - Any data processing details or steps mentioned.
+    - Any options the user can select.
+
+    Output in the following JSON format:
+    {
+        "title": "Appropriate Title Here",
+        "actions": [
+            "Action 1",
+            "Action 2",
+            ...
+        ]
+    }
     """
     
     # Prepare the data for the API request
@@ -51,6 +66,8 @@ checkpoint_file = "checkpoint.txt"
 if os.path.exists(checkpoint_file):
     with open(checkpoint_file, "r") as f:
         last_processed = f.read().strip()
+        if not last_processed:
+            last_processed = None
 else:
     last_processed = None
 
