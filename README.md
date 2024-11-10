@@ -28,6 +28,7 @@ This project is designed to convert HTML content into structured information usi
    ```
 
 3. **Install Dependencies**
+   You will have to pre-install the requirements.txt file in your environment (Hehe).
 
    ```bash
    pip install -r requirements.txt
@@ -40,6 +41,7 @@ This project is designed to convert HTML content into structured information usi
    ```bash
    export TOGETHER_API_KEY=your_together_api_key
    export HUGGINGFACE_API_KEY=your_huggingface_api_key
+   export OPENAI_API_KEY=your_openai_api_key
    ```
 
 ## Usage
@@ -48,12 +50,12 @@ This project is designed to convert HTML content into structured information usi
 
    Place your `.txt` files containing HTML content in the `formatted_files` directory.
 
-2. **Run the Script Using Together API**
+2. **Run the Script Using OpenAI API**
 
-   Execute the main script to process the files using the Together API with the `meta-llama/Meta-Llama-3-8B-Instruct-Lite` model:
+   Execute the main script to process the files using the OpenAI API with the `gpt-4o-mini` model:
 
    ```bash
-   python together_models.py
+   python generator-openai.py
    ```
 
    This will generate descriptions and save them in the `descriptions` directory.
@@ -70,6 +72,10 @@ This project is designed to convert HTML content into structured information usi
 
 ## Code Overview
 
+- **`generator-openai.py`**: Main script for processing files and generating descriptions using the OpenAI API with the `gpt-4o-mini` model.
+  - Initializes the OpenAI client and processes files from the `formatted_files` directory.
+  - Generates descriptions using the OpenAI API.
+  - Saves results in JSON format.
 - **`together_models.py`**: Main script for processing files and generating descriptions using the Together API with the `meta-llama/Meta-Llama-3-8B-Instruct-Lite` model.
 
   - Initializes the Together client and processes files from the `formatted_files` directory.
