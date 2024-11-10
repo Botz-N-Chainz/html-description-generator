@@ -14,16 +14,17 @@ def generate_description(content):
     - Any forms the user can fill out and their purpose.
     - Any data processing details or steps mentioned.
     - Any options the user can select.
+    3. A description of the page. Be on point but do not leave out any important details.
 
     Output in the following JSON format:
     {
         "title": "Appropriate Title Here",
-        "actions": [
-            "Action 1",
-            "Action 2",
-            ...
+        "actions": ["Action 1", "Action 2", ...]
         ]
+        "description": "Description of the page"
     }
+    
+    Only output the JSON and nothing else.
     """
 
     # Send the content to the Together API to generate a summary
