@@ -1,0 +1,12 @@
+URL: https://www.ird.gov.lk/en/publications/SitePages/Advertisements.aspx?menuid=1413
+
+<html><body><form><div>SharePoint</div><div><ul><li><a href="/en/publications/"><span>En</span><span>Currently selected</span></a></li></ul></div><h1><span><a href="/en/publications/SitePages/Advertisements.aspx?menuid=1413">Advertisements</a></span><div><span>Publications</span></div></h1><div><div name="Control"><div><table><tbody><tr><td><table><tbody><tr><td name="titlewpTitleArea"><span>Advertisements</span></td></tr></tbody></table></td></tr></tbody></table></div><table><tbody><tr><td><table><tbody><tr><td name="_invisibleIfEmpty"><div>
+Home :: Useful Information  :: <span>Advertisements</span></div><div><h3>Advertisements</h3><div><table><tbody><tr><td>
+There are no advertisements to display
+</td></tr></tbody></table></div></div></td></tr><tr><td name="_invisibleIfEmpty"></td></tr></tbody></table></td></tr></tbody></table></div><div>
+Last updated:
+24-06-2020
+</div><div><button type="button"><div>
+Help us improve
+</div></button></div><div><h5>Rate your experience</h5><button type="button"><span>×</span></button></div><div><span>Not Satisfied</span><span>Very Satisfied</span></div><div>
+Thank You! <a href="../sitepages/feedback.aspx">Tell Us More !!</a></div><button type="button"><span>×</span></button></div></form></body></html>
