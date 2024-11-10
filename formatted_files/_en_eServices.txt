@@ -1,8 +1,8 @@
 URL: https://www.ird.gov.lk/en/eServices
 
-<html><body><form><div>SharePoint</div><div><ul><li><a href="/en/eServices/"><span>e-Services</span><span>Currently selected</span></a></li></ul></div><h1><span>
+<html><body><form><div>SharePoint</div><div><ul><li><a><span>e-Services</span><span>Currently selected</span></a></li></ul></div><h1><span>
 e-Services
-</span></h1><div><div name="Control"><div><ul><li><a href="/en/eServices"><span>Home</span><span>Currently selected</span></a></li><li><span>Recent</span></li><li><a href="/en/eServices/_layouts/15/viewlsts.aspx"><span>Site Contents</span></a></li><li><a href="https://www.ird.gov.lk/en/eServices/_layouts/15/RecycleBin.aspx?ql=1"><span>Recycle Bin</span></a></li></ul></div><div><span>
+</span></h1><div><div name="Control"><div><ul><li><a><span>Home</span><span>Currently selected</span></a></li><li><span>Recent</span></li><li><a><span>Site Contents</span></a></li><li><a><span>Recycle Bin</span></a></li></ul></div><div><span>
 Home
 </span><div><table><tbody><tr><td></td></tr></tbody></table><span>false,false,1</span></div><div>
 Last updated:
@@ -10,4 +10,4 @@ Last updated:
 </div><div><button type="button"><div>
 Help us improve
 </div></button></div><div><h5>Rate your experience</h5><button type="button"><span>×</span></button></div><div><span>Not Satisfied</span><span>Very Satisfied</span></div><div>
-Thank You! <a href="../sitepages/feedback.aspx">Tell Us More !!</a></div><button type="button"><span>×</span></button></div></div></div></form></body></html>
+Thank You! <a>Tell Us More !!</a></div><button type="button"><span>×</span></button></div></div></div></form></body></html>
